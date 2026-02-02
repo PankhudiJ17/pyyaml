@@ -162,7 +162,7 @@ jobs:
           - { platform: manylinux2014, arch: aarch64, spec: cp313, omit: ${{ env.skip_ci_redundant_jobs }} }
           - { platform: manylinux2014, arch: aarch64, spec: cp314 }
           - { platform: manylinux2014, arch: aarch64, spec: cp314t }
-          
+
           - { platform: manylinux2014, arch: s390x, spec: cp38 }
           - { platform: manylinux2014, arch: s390x, spec: cp39 }
           - { platform: manylinux2014, arch: s390x, spec: cp310 }
@@ -173,7 +173,7 @@ jobs:
           - { platform: manylinux2014, arch: s390x, spec: cp314t }
 
           - { platform: manylinux2014, arch: ppc64le, spec: cp38 }
-          - { platform: manylinux2014, arch: ppc64le, spec: cp398} }
+          - { platform: manylinux2014, arch: ppc64le, spec: cp398 }
           - { platform: manylinux2014, arch: ppc64le, spec: cp3108 }
           - { platform: manylinux2014, arch: ppc64le, spec: cp3118 }
           - { platform: manylinux2014, arch: ppc64le, spec: cp3128 }
