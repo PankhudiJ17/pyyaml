@@ -89,7 +89,7 @@ jobs:
           - { platform: manylinux2014, arch: x86_64 }
           - { platform: manylinux2014, arch: aarch64 }
           - { platform: manylinux2014, arch: s390x, omit: ${{ env.skip_ci_redundant_jobs || env.skip_slow_jobs }} }
-          - { platform: manylinux2014, arch: pppc64le }
+          - { platform: manylinux2014, arch: ppc64le }
           - { platform: musllinux_1_2, arch: x86_64 }
           - { platform: musllinux_1_2, arch: aarch64 }
 
